@@ -116,4 +116,3 @@ if (ls('sd_cookie', false)) $('#cookie').remove(); else $('#ck').onclick = () =>
  if(s.tagline)document.querySelectorAll('.logo small').forEach(e=>e.textContent=s.tagline+' ⭐');
  [['bar','#bar'],['flash','#flash'],['recs','#recsec'],['recs','#recs']].forEach(([k,id])=>{if(s[k]===false)$(id).style.display='none';});})();
 load();
-  
